@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @OS-Lihua
+- 👋 Hi, I’m Lihua
 - 👀 I’m interested in Cpp,Game,Server,GIS,netWork,cloud computing,Database
 - 🌱 I’m currently learning Cpp,openGL,UE5,QGIS,linux,netWork
 - 💞️ I’m looking to collaborate on Some project with Cpp
