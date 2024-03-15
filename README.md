@@ -7,36 +7,5 @@
 OS-Lihua/OS-Lihua is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
-
-<!-- 信息统计 -->
-<!-- <div align="center"> <img src="https://metrics.lecoq.io/OS-Lihua?template=classic&config.timezone=Asia%2FShanghai"> </div> -->
-
-<!-- Github 统计卡片 -->
-<div align="center"> 
-    <img height="137px" src="https://github-readme-stats.vercel.app/api?username=OS-Lihua&hide_title=true&hide_border=true&show_icons=trueline_height=21&text_color=000&icon_color=000&bg_color=0,ea6161,ffc64d,fffc4d,52fa5a&theme=graywhite" /> 
-</div> 
-
-<!-- GitHub 使用语言统计 -->
-<div align="center"> 
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OS-Lihua&hide_title=true&hide_border=true&layout=compact&langs_count=6&text_color=000&icon_color=fff&bg_color=0,52fa5a,4dfcff,c64dff&theme=graywhite" /> 
-</div>
-<!-- GitHub 资料奖杯 -->
-<!-- <div align="center"> <img src="https://github-profile-trophy.vercel.app/?username=OS-Lihua" /> </div> -->
-
-
-<!-- GitHub 徽章 -->
-<span > 
-    <img src="https://img.shields.io/badge/-cpp-E34F26?style=flat-square&logo=cpp&logoColor=white" /> 
-    <img src="https://img.shields.io/badge/-go-1572B6?style=flat-square&logo=go" /> 
-    <img src="https://img.shields.io/badge/-solidity-oringe?style=flat-square&logo=solidity" /> 
-</span>
-
-<!-- GitHub 访客徽章 -->
-<!-- <div align="center"> <img src="https://visitor-badge.glitch.me/badge?page_id=OS-Lihua" /> </div> -->
-
-<!-- GitHub 活动统计图 -->
-<!-- <div align="center"> <img src="https://activity-graph.herokuapp.com/graph?username=OS-Lihua&theme=xcode" /> </div> -->
-
-<!-- GitHub 连续打卡 -->
-<div align="center"> <img src="https://github-readme-streak-stats.herokuapp.com/?user=OS-Lihua" /> </div>
-
+![Lihua's GitHub stats](https://github-readme-stats.vercel.app/api?username=OS-Lihua&count_private=true&show_icons=true&theme=radical)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=OS-Lihua&hide=javascript,html)](https://github.com/anuraghazra/github-readme-stats)
