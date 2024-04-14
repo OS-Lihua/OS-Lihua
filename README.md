@@ -1,7 +1,7 @@
 - 👋 Hi, I’m Lihua
 - 👀 I’m interested in Cpp,Game,Server,GIS,netWork,cloud computing,Database,Web3
 - 🌱 I’m currently learning Cpp,GIS,linux,netWork,Car,Web3
-- 💞️ I’m looking to collaborate on Some project with Cpp
+- 💞️ I’m looking to collaborate on Some project with Cpp,Web3
   
 <!---
 OS-Lihua/OS-Lihua is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
