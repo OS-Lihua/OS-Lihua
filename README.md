@@ -1,10 +1,4 @@
 # 👋 Hi, I’m YaCo
-![Lihua's GitHub stats](https://github-readme-stats.vercel.app/api?username=OS-Lihua&count_private=true&show_icons=true&theme=radical)
-
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=OS-Lihua&hide=javascript,html&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
-
-## I'am
 
 - 👀 Interested in Cpp,Game,Server,GIS,netWork,cloud computing,Database,Web3
 - 🌱 Currently learning Web3,Security,Go,Rust,AI,Research
