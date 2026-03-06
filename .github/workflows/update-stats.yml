@@ -1,0 +1,194 @@
+name: Update Skill Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * 1'  # Every Monday at 00:00 UTC
+  workflow_dispatch:      # Manual trigger
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install requests pyyaml
+
+      - name: Generate skill stats
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 << 'EOF'
+          import json
+          import requests
+          from datetime import datetime, timedelta
+
+          token = "${{ secrets.GITHUB_TOKEN }}"
+          username = "OS-Lihua"
+          headers = {
+              "Authorization": f"token {token}",
+              "Accept": "application/vnd.github.v3+json"
+          }
+
+          # Get user repos
+          repos_url = f"https://api.github.com/users/{username}/repos?per_page=100&type=owner"
+          repos_response = requests.get(repos_url, headers=headers)
+          repos = repos_response.json()
+
+          # Language statistics
+          language_stats = {}
+
+          for repo in repos:
+              if repo['fork']:
+                  continue
+
+              # Get language data
+              languages_url = f"https://api.github.com/repos/{username}/{repo['name']}/languages"
+              lang_response = requests.get(languages_url, headers=headers)
+
+              if lang_response.status_code == 200:
+                  languages = lang_response.json()
+                  for lang, bytes_count in languages.items():
+                      if lang not in language_stats:
+                          language_stats[lang] = {"bytes": 0, "commits": 0}
+                      language_stats[lang]["bytes"] += bytes_count
+
+          # Get commit data from last year
+          since_date = (datetime.now() - timedelta(days=365)).isoformat()
+          commits_url = f"https://api.github.com/search/commits?q=author:{username}+committer-date:>{since_date}&per_page=1"
+          commits_response = requests.get(commits_url, headers=headers)
+          total_commits = commits_response.json().get('total_count', 0)
+
+          # Calculate language commit ratios
+          primary_langs = ["C++", "Solidity", "Go", "Python", "TypeScript", "Rust", "JavaScript", "Bash"]
+
+          sorted_langs = sorted(
+              [(lang, stats["bytes"]) for lang, stats in language_stats.items()],
+              key=lambda x: x[1],
+              reverse=True
+          )
+
+          # Build skill matrix
+          skill_matrix = []
+          total_bytes = sum(bytes for _, bytes in sorted_langs)
+
+          for i, (lang, bytes_count) in enumerate(sorted_langs[:10]):
+              percentage = (bytes_count / total_bytes * 100) if total_bytes > 0 else 0
+              commit_estimate = int((percentage / 100) * total_commits)
+
+              # Star rating based on percentage
+              stars = min(5, max(1, int(percentage / 20)))
+              star_str = "⭐" * stars
+
+              # Progress bar
+              filled = int(percentage / 5)
+              empty = 20 - filled
+              progress = "`" + "█" * filled + "░" * empty + "`"
+
+              skill_matrix.append({
+                  "lang": lang,
+                  "commits": commit_estimate,
+                  "percentage": round(percentage, 1),
+                  "stars": star_str,
+                  "progress": progress
+              })
+
+          # Generate markdown
+          skill_content = "| Language | Commits | Proficiency | Progress |\n"
+          skill_content += "|----------|---------|-------------|----------|\n"
+
+          for skill in skill_matrix:
+              skill_content += f"| {skill['lang']} | {skill['commits']} | {skill['stars']} | {skill['progress']} |\n"
+
+          print("Generated skill matrix:")
+          print(skill_content)
+
+          # Save to file for next step
+          with open("/tmp/skill_matrix.txt", "w") as f:
+              f.write(skill_content)
+
+          EOF
+
+      - name: Update README.md
+        run: |
+          skill_matrix=$(cat /tmp/skill_matrix.txt)
+
+          # Escape for sed
+          skill_matrix_escaped=$(echo "$skill_matrix" | sed 's/[\/&]/\\&/g' | sed ':a;N;$!ba;s/\n/\\n/g')
+
+          sed -i "s/<!-- SKILLS:START -->.*<!-- SKILLS:END -->/<!-- SKILLS:START -->\n$skill_matrix_escaped\n<!-- SKILLS:END -->/s" README.md || true
+
+          # Fallback method if sed fails
+          if ! grep -q "SKILLS:START" README.md; then
+            python3 << 'PYEOF'
+          import re
+          with open("README.md", "r") as f:
+              content = f.read()
+
+          skill_matrix = open("/tmp/skill_matrix.txt").read()
+          content = re.sub(
+              r'<!-- SKILLS:START -->.*?<!-- SKILLS:END -->',
+              f'<!-- SKILLS:START -->\n{skill_matrix}\n<!-- SKILLS:END -->',
+              content,
+              flags=re.DOTALL
+          )
+
+          with open("README.md", "w") as f:
+              f.write(content)
+          PYEOF
+          fi
+
+      - name: Update README.zh.md
+        run: |
+          skill_matrix=$(cat /tmp/skill_matrix.txt)
+
+          # Escape for sed
+          skill_matrix_escaped=$(echo "$skill_matrix" | sed 's/[\/&]/\\&/g' | sed ':a;N;$!ba;s/\n/\\n/g')
+
+          sed -i "s/<!-- SKILLS:START -->.*<!-- SKILLS:END -->/<!-- SKILLS:START -->\n$skill_matrix_escaped\n<!-- SKILLS:END -->/s" README.zh.md || true
+
+          # Fallback method if sed fails
+          if ! grep -q "SKILLS:START" README.zh.md; then
+            python3 << 'PYEOF'
+          import re
+          with open("README.zh.md", "r") as f:
+              content = f.read()
+
+          skill_matrix = open("/tmp/skill_matrix.txt").read()
+          content = re.sub(
+              r'<!-- SKILLS:START -->.*?<!-- SKILLS:END -->',
+              f'<!-- SKILLS:START -->\n{skill_matrix}\n<!-- SKILLS:END -->',
+              content,
+              flags=re.DOTALL
+          )
+
+          with open("README.zh.md", "w") as f:
+              f.write(content)
+          PYEOF
+          fi
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+
+          if git diff --quiet README.md README.zh.md; then
+            echo "No changes to commit"
+          else
+            git add README.md README.zh.md
+            git commit -m "chore: update skill statistics"
+            git push
+          fi

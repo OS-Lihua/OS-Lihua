@@ -1,0 +1,140 @@
+<svg viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <style>
+      @keyframes circuit-flow {
+        0%, 100% { stroke-dashoffset: 1000; }
+        50% { stroke-dashoffset: 0; }
+      }
+      @keyframes subtle-glow {
+        0%, 100% { opacity: 0.4; }
+        50% { opacity: 0.8; }
+      }
+      @keyframes gentle-float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-5px); }
+      }
+      .circuit-line {
+        stroke: #1a1a6e;
+        stroke-width: 2;
+        fill: none;
+        stroke-dasharray: 1000;
+        animation: circuit-flow 8s infinite ease-in-out;
+      }
+      .main-text {
+        fill: #1a1a6e;
+        font-size: 72px;
+        font-weight: bold;
+        font-family: 'Monaco', 'Courier New', monospace;
+        letter-spacing: 4px;
+        animation: gentle-float 3s ease-in-out infinite;
+      }
+      .sub-text {
+        fill: #4a4a8f;
+        font-size: 20px;
+        font-family: 'Monaco', 'Courier New', monospace;
+        letter-spacing: 2px;
+        animation: gentle-float 3.5s ease-in-out infinite 0.2s;
+      }
+      .accent-dot {
+        animation: subtle-glow 2.5s infinite;
+      }
+      .node {
+        fill: #c9a227;
+        animation: subtle-glow 3s infinite;
+      }
+      .address-text {
+        fill: #4a4a8f;
+        font-size: 14px;
+        font-family: 'Monaco', 'Courier New', monospace;
+        opacity: 0.8;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="300" fill="#f5f5fa"/>
+
+  <!-- PCB Pattern -->
+  <defs>
+    <pattern id="pcb-grid" x="30" y="30" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="15" cy="15" r="2" fill="#e0e0f5" opacity="0.4"/>
+      <line x1="0" y1="15" x2="30" y2="15" stroke="#d0d0f0" stroke-width="0.5" opacity="0.3"/>
+      <line x1="15" y1="0" x2="15" y2="30" stroke="#d0d0f0" stroke-width="0.5" opacity="0.3"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="300" fill="url(#pcb-grid)"/>
+
+  <!-- Gradient Overlay -->
+  <defs>
+    <linearGradient id="grad-light" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a6e;stop-opacity:0.02" />
+      <stop offset="100%" style="stop-color:#c9a227;stop-opacity:0.02" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="300" fill="url(#grad-light)"/>
+
+  <!-- Circuit Lines (PCB style) -->
+  <g>
+    <!-- Left circuit -->
+    <line class="circuit-line" x1="50" y1="80" x2="150" y2="80"/>
+    <line class="circuit-line" x1="150" y1="80" x2="150" y2="180"/>
+    <line class="circuit-line" x1="150" y1="180" x2="80" y2="180"/>
+
+    <!-- Right circuit -->
+    <line class="circuit-line" x1="1100" y1="100" x2="1000" y2="100"/>
+    <line class="circuit-line" x1="1000" y1="100" x2="1000" y2="200"/>
+    <line class="circuit-line" x1="1000" y1="200" x2="1100" y2="200"/>
+  </g>
+
+  <!-- Central Text -->
+  <text class="main-text" x="70" y="130">0xYaCo</text>
+  <text class="sub-text" x="80" y="170">PRODUCT ARCHITECT × WEB3 BUILDER</text>
+
+  <!-- Accent Elements -->
+  <g>
+    <!-- Left accent line -->
+    <line x1="40" y1="90" x2="40" y2="220" stroke="#1a1a6e" stroke-width="3" opacity="0.3"/>
+    <circle cx="40" cy="90" r="6" fill="#c9a227" class="node"/>
+    <circle cx="40" cy="220" r="6" fill="#1a1a6e" class="accent-dot"/>
+  </g>
+
+  <!-- Nodes (connection points) -->
+  <g class="node">
+    <circle cx="150" cy="80" r="5" fill="#c9a227"/>
+    <circle cx="150" cy="180" r="5" fill="#c9a227"/>
+    <circle cx="80" cy="180" r="5" fill="#c9a227"/>
+    <circle cx="1000" cy="100" r="5" fill="#c9a227"/>
+    <circle cx="1000" cy="200" r="5" fill="#c9a227"/>
+  </g>
+
+  <!-- Right side address style text -->
+  <g>
+    <text class="address-text" x="980" y="270">// 0x1337</text>
+    <rect x="975" y="260" width="200" height="25" fill="none" stroke="#4a4a8f" stroke-width="1" opacity="0.4"/>
+  </g>
+
+  <!-- Corner Elements -->
+  <g stroke="#1a1a6e" stroke-width="1.5" fill="none" opacity="0.3">
+    <!-- Top left -->
+    <polyline points="20,20 50,20 50,50"/>
+    <!-- Top right -->
+    <polyline points="1180,20 1150,20 1150,50"/>
+    <!-- Bottom left -->
+    <polyline points="20,280 50,280 50,250"/>
+    <!-- Bottom right -->
+    <polyline points="1180,280 1150,280 1150,250"/>
+  </g>
+
+  <!-- Decorative circles -->
+  <circle cx="250" cy="250" r="30" fill="none" stroke="#1a1a6e" stroke-width="1.5" opacity="0.2"/>
+  <circle cx="250" cy="250" r="25" fill="none" stroke="#c9a227" stroke-width="1" opacity="0.3"/>
+  <circle cx="950" cy="80" r="35" fill="none" stroke="#1a1a6e" stroke-width="1.5" opacity="0.2"/>
+  <circle cx="950" cy="80" r="30" fill="none" stroke="#c9a227" stroke-width="1" opacity="0.3"/>
+
+  <!-- Subtle dots -->
+  <g opacity="0.4">
+    <circle cx="300" cy="100" r="1.5" fill="#c9a227"/>
+    <circle cx="600" cy="200" r="1" fill="#1a1a6e"/>
+    <circle cx="850" cy="150" r="1.5" fill="#c9a227"/>
+  </g>
+</svg>

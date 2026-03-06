@@ -1,31 +1,119 @@
-# 👋 Hi, I’m YaCo
+<div align="right">
+  <a href="./README.zh.md">🌐 中文版</a> | <strong>EN</strong>
+</div>
 
-- 👀 Interested in Cpp,Game,Server,GIS,netWork,cloud computing,Database,Web3
-- 🌱 Currently learning Web3,Security,Go,Rust,AI,Research
-- 💞️ Focusing on web3 now
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dark-header.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/light-header.svg">
+  <img src="./assets/dark-header.svg" width="100%">
+</picture>
 
-## Languages
+---
 
-Chinese/English
+## ▸ SECTOR_01 // IDENTITY
 
-### Learning
+**0xYaCo** · Product Architect · Security Researcher · Web3 Builder
 
-![Learning](https://skillicons.dev/icons?i=figma,ts,react,html,css,js,nextjs,rust,go,redis,mysql,sqlite,python&theme=dark&perline=7)
+📍 Hangzhou, China · UTC+8
+🌐 Web3 × Security × Code × Game Design
 
-### Using
+---
 
-![Using](https://skillicons.dev/icons?i=cpp,c,solidity,bash,git,md&theme=dark&perline=7)
+## ▸ SECTOR_02 // CURRENT FOCUS
 
-### Tools
-![Tools](https://skillicons.dev/icons?i=vscode,vim,ps,pr,github,cloudflare,docker,vercel,cmake,visualstudio&theme=dark&perline=7)
+> Building products that matter. Shipping code with impact.
 
-### System
-![System](https://skillicons.dev/icons?i=windows,linux&theme=dark&perline=7)
+### 🔥 Featured Projects
 
-## Contacts
+| Project | Description | Stack |
+|---------|-------------|-------|
+| **[CurveCraft](https://github.com/OS-Lihua/CurveCraft)** | 🎨 Decentralized Bonding Curve DeFi Tool | Solidity · React · Foundry |
+| **[BettaFish 微舆](https://github.com/OS-Lihua/BettaFish)** | 📊 Multi-Agent Sentiment Analysis (30+ Platforms) | Python · BERT · Flask |
+| **[neoxsend](https://github.com/OS-Lihua/neoxsend)** | 🔐 Secure On-Chain Random Service | Solidity · Foundry |
+| **[AP2](https://github.com/OS-Lihua/AP2)** | 🤖 AI Agent Payment Protocol | Python · Gemini API |
 
-<a href="https://x.com/0xYaCo"><img src="https://skillicons.dev/icons?i=twitter" /></a>
-<a href="mailto:yaco@yaco.email"><img src="https://skillicons.dev/icons?i=gmail" /></a>
+---
 
+## ▸ SECTOR_03 // SKILL MATRIX
 
-<a href="#" class="button icon arrowdown"><a href="https://linktr.ee/0xYaCo">More about me</a></a>
+<!-- SKILLS:START -->
+| Language | Commits | Proficiency | Progress |
+|----------|---------|-------------|----------|
+| C++ | 82 | ⭐⭐⭐⭐⭐ | `████████████░░` |
+| Solidity | 61 | ⭐⭐⭐⭐ | `██████████░░░░` |
+| Go | 34 | ⭐⭐⭐ | `██████░░░░░░░░░░` |
+| Python | 28 | ⭐⭐⭐ | `█████░░░░░░░░░░░░` |
+| TypeScript | 21 | ⭐⭐ | `████░░░░░░░░░░░░░░░░` |
+| Rust | 18 | ⭐⭐ | `███░░░░░░░░░░░░░░░░░░░░` |
+
+<!-- SKILLS:END -->
+
+### Tech Stack
+
+**Languages**: C++ · Solidity · Go · Python · TypeScript · Rust · Bash · JavaScript
+**Blockchain**: Solidity · Foundry · Hardhat · Web3.js · Ethers.js
+**Backend**: Flask · FastAPI · gRPC · PostgreSQL · Redis
+**Frontend**: React · Next.js · TypeScript · Tailwind CSS
+**DevOps**: Docker · GitHub Actions · AWS · Vercel
+**Tools**: Git · VS Code · Vim · CMake · Make
+
+---
+
+## ▸ SECTOR_04 // STATS
+
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=OS-Lihua&theme=tokyonight&show_icons=true&hide_border=true&count_private=true)](https://github.com/OS-Lihua)
+
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=OS-Lihua&theme=tokyonight&hide_border=true&layout=compact)](https://github.com/OS-Lihua)
+
+[![GitHub Streak](https://streak-stats.demolab.com/?user=OS-Lihua&theme=tokyonight&hide_border=true)](https://github.com/OS-Lihua)
+
+---
+
+## ▸ SECTOR_05 // ACHIEVEMENTS
+
+[![GitHub Trophy](https://github-profile-trophy.vercel.app/?username=OS-Lihua&theme=tokyonight&no-frame=true&row=1&column=6)](https://github.com/OS-Lihua)
+
+---
+
+## ▸ SECTOR_06 // AI.ORACLE
+
+*Daily wisdom from multiple AI models. Refreshed every 24 hours.*
+
+<!-- AI:START -->
+```
+[Claude] Build is the best learning. Every shipped feature teaches more than
+         100 lines of documentation could ever convey.
+
+[Gemini] On-chain data is the most honest history. Trust the immutable ledger,
+         question everything else.
+
+[GPT]    Stay hungry. Stay paranoid. The next hacker is always three steps ahead.
+```
+<!-- AI:END -->
+
+---
+
+## ▸ SECTOR_07 // CONNECT
+
+<div align="center">
+
+[![Twitter](https://img.shields.io/badge/Twitter-@0xYaCo-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://x.com/0xYaCo)
+[![Email](https://img.shields.io/badge/Email-yaco%40yaco.email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:yaco@yaco.email)
+[![Linktree](https://img.shields.io/badge/Linktree-0xYaCo-39E09B?style=flat-square&logo=linktree&logoColor=white)](https://linktr.ee/0xYaCo)
+[![Telegram](https://img.shields.io/badge/Telegram-@0xYaCo-0088cc?style=flat-square&logo=telegram&logoColor=white)](https://t.me/0xYaCo)
+
+</div>
+
+---
+
+<div align="center">
+  <img src="./assets/github-contribution-grid-snake-dark.svg" alt="contribution graph" />
+</div>
+
+---
+
+**Let's build something extraordinary together.** 🚀
+
+<div align="center">
+  <sub>Last updated: <em>auto-refreshed daily</em> | Made with 💻 + ✨</sub>
+</div>
