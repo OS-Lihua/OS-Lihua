@@ -86,24 +86,9 @@
 
 <!-- STATS -->
 <div align="center">
-  <table>
-    <tr>
-      <td>
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=OS-Lihua&show_icons=true&hide_border=true&count_private=true&bg_color=0a0a0f&title_color=00fff2&icon_color=ff00ff&text_color=c9d1d9">
-          <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=OS-Lihua&show_icons=true&hide_border=true&count_private=true">
-          <img src="https://github-readme-stats.vercel.app/api?username=OS-Lihua&show_icons=true&hide_border=true&count_private=true&bg_color=0a0a0f&title_color=00fff2&icon_color=ff00ff&text_color=c9d1d9" height="180">
-        </picture>
-      </td>
-      <td>
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=OS-Lihua&hide_border=true&layout=compact&bg_color=0a0a0f&title_color=00fff2&text_color=c9d1d9">
-          <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=OS-Lihua&hide_border=true&layout=compact">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OS-Lihua&hide_border=true&layout=compact&bg_color=0a0a0f&title_color=00fff2&text_color=c9d1d9" height="180">
-        </picture>
-      </td>
-    </tr>
-  </table>
+  <img src="https://github-readme-stats.vercel.app/api?username=OS-Lihua&show_icons=true&hide_border=true&count_private=true&bg_color=0a0a0f&title_color=00fff2&icon_color=ff00ff&text_color=c9d1d9" height="180">
+  &nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OS-Lihua&hide_border=true&layout=compact&bg_color=0a0a0f&title_color=00fff2&text_color=c9d1d9" height="180">
 </div>
 
 <div align="center">
