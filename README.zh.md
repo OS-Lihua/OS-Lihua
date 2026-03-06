@@ -75,19 +75,13 @@
 <div align="center">
 <h3>🛠️ 工具</h3>
 
-![Tools](https://skillicons.dev/icons?i=vscode,vim,git,linux,apple,redis,figma,cmake&theme=dark&perline=8)
+![Tools](https://skillicons.dev/icons?i=vscode,vim,git,linux,redis,figma,cmake,md&theme=dark&perline=8)
 
 </div>
 
 ---
 
 <!-- STATS -->
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=OS-Lihua&show_icons=true&hide_border=true&count_private=true&bg_color=0a0a0f&title_color=00fff2&icon_color=ff00ff&text_color=c9d1d9" height="180">
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OS-Lihua&hide_border=true&layout=compact&bg_color=0a0a0f&title_color=00fff2&text_color=c9d1d9" height="180">
-</div>
-
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=OS-Lihua&hide_border=true&background=0a0a0f&ring=00fff2&fire=ff00ff&currStreakLabel=00fff2">
@@ -108,17 +102,6 @@
 </div>
 
 ---
-
-<!-- TROPHY -->
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=OS-Lihua&theme=algolia&no-frame=true&row=1&column=7&no-bg=true">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy.vercel.app/?username=OS-Lihua&theme=flat&no-frame=true&row=1&column=7&no-bg=true">
-    <img src="https://github-profile-trophy.vercel.app/?username=OS-Lihua&theme=algolia&no-frame=true&row=1&column=7&no-bg=true" width="100%">
-  </picture>
-</div>
-
-<br>
 
 <!-- SNAKE -->
 <div align="center">
