@@ -5,18 +5,18 @@
 <!-- HEADER -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:7000ff,50:ff00ff,100:00fff2&height=220&text=0xYaCo&fontColor=fff&fontSize=70&fontAlignY=35&desc=Product%20Architect%20%C3%97%20Web3%20Builder%20%C3%97%20Security%20Researcher&descSize=18&descAlignY=55&animation=twinkling">
-    <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a6e,50:4a4a8f,100:c9a227&height=220&text=0xYaCo&fontColor=fff&fontSize=70&fontAlignY=35&desc=Product%20Architect%20%C3%97%20Web3%20Builder%20%C3%97%20Security%20Researcher&descSize=18&descAlignY=55&animation=twinkling">
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7000ff,50:ff00ff,100:00fff2&height=220&text=0xYaCo&fontColor=fff&fontSize=70&fontAlignY=35&desc=Product%20Architect%20%C3%97%20Web3%20Builder%20%C3%97%20Security%20Researcher&descSize=18&descAlignY=55&animation=twinkling" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:7000ff,50:ff00ff,100:00fff2&height=220&text=0xYaCo&fontColor=fff&fontSize=70&fontAlignY=35&desc=Web4%20%3D%20Web3%20%2B%20AI%20%7C%20Builder%20%C3%97%20Engineer&descSize=18&descAlignY=55&animation=twinkling">
+    <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a6e,50:4a4a8f,100:c9a227&height=220&text=0xYaCo&fontColor=fff&fontSize=70&fontAlignY=35&desc=Web4%20%3D%20Web3%20%2B%20AI%20%7C%20Builder%20%C3%97%20Engineer&descSize=18&descAlignY=55&animation=twinkling">
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7000ff,50:ff00ff,100:00fff2&height=220&text=0xYaCo&fontColor=fff&fontSize=70&fontAlignY=35&desc=Web4%20%3D%20Web3%20%2B%20AI%20%7C%20Builder%20%C3%97%20Engineer&descSize=18&descAlignY=55&animation=twinkling" width="100%">
   </picture>
 </div>
 
 <!-- TYPING SVG -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=00FFF2&center=true&vCenter=true&width=700&height=45&lines=%24+Building+DeFi+%7C+Auditing+Contracts+%7C+Shipping+Agents">
-    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=1a1a6e&center=true&vCenter=true&width=700&height=45&lines=%24+Building+DeFi+%7C+Auditing+Contracts+%7C+Shipping+Agents">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=00FFF2&center=true&vCenter=true&width=700&height=45&lines=%24+Building+DeFi+%7C+Auditing+Contracts+%7C+Shipping+Agents">
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=00FFF2&center=true&vCenter=true&width=700&height=45&lines=%24+Web3+%2B+AI+%3D+Web4;%24+Blockchain+%C3%97+Agent+%C3%97+Security;%24+Vibe+Coding+with+Claude+%26+Codex">
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=1a1a6e&center=true&vCenter=true&width=700&height=45&lines=%24+Web3+%2B+AI+%3D+Web4;%24+Blockchain+%C3%97+Agent+%C3%97+Security;%24+Vibe+Coding+with+Claude+%26+Codex">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=00FFF2&center=true&vCenter=true&width=700&height=45&lines=%24+Web3+%2B+AI+%3D+Web4;%24+Blockchain+%C3%97+Agent+%C3%97+Security;%24+Vibe+Coding+with+Claude+%26+Codex">
   </picture>
 </div>
 
@@ -25,10 +25,10 @@
 <!-- IDENTITY BADGES -->
 <div align="center">
 
+![Web4](https://img.shields.io/badge/Web4_=_Web3_+_AI-0a0a0f?style=for-the-badge&logo=ethereum&logoColor=00fff2)
+![AI Engineer](https://img.shields.io/badge/AI_Engineer-0a0a0f?style=for-the-badge&logo=openai&logoColor=ff00ff)
+![Blockchain](https://img.shields.io/badge/Blockchain_Dev-0a0a0f?style=for-the-badge&logo=ethereum&logoColor=7000ff)
 ![Hangzhou](https://img.shields.io/badge/Hangzhou_UTC%2B8-0a0a0f?style=for-the-badge&logo=googlemaps&logoColor=00fff2)
-![Web3](https://img.shields.io/badge/Web3_Builder-0a0a0f?style=for-the-badge&logo=ethereum&logoColor=00fff2)
-![Security](https://img.shields.io/badge/Security_Researcher-0a0a0f?style=for-the-badge&logo=openbugbounty&logoColor=ff00ff)
-![AI Agent](https://img.shields.io/badge/AI_Agent_Dev-0a0a0f?style=for-the-badge&logo=openai&logoColor=7000ff)
 
 </div>
 
@@ -36,49 +36,46 @@
 
 ---
 
-<!-- BLOCKCHAIN & DEFI -->
+<!-- AI & VIBE CODING -->
 <div align="center">
-<h3>⛓️ Blockchain & DeFi</h3>
+<h3>🤖 AI & Vibe Coding</h3>
 
-![Solidity](https://skillicons.dev/icons?i=solidity&theme=dark)
-&nbsp;&nbsp;
+![Claude](https://img.shields.io/badge/Claude_Code-7000ff?style=for-the-badge&logo=anthropic&logoColor=white)
+![OpenAI](https://img.shields.io/badge/Codex-412991?style=for-the-badge&logo=openai&logoColor=white)
+![OpenCode](https://img.shields.io/badge/OpenCode-00fff2?style=for-the-badge&logo=opensourceinitiative&logoColor=black)
+![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white)
+![Cursor](https://img.shields.io/badge/Cursor-000?style=for-the-badge&logo=cursor&logoColor=white)
+
+</div>
+
+<!-- BLOCKCHAIN -->
+<div align="center">
+<h3>⛓️ Blockchain</h3>
+
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
 ![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
-![Uniswap](https://img.shields.io/badge/Uniswap-FF007A?style=for-the-badge&logo=uniswap&logoColor=white)
 ![Foundry](https://img.shields.io/badge/Foundry-1C1C1C?style=for-the-badge&logo=ethereum&logoColor=00fff2)
-![Hardhat](https://img.shields.io/badge/Hardhat-FFF100?style=for-the-badge&logo=hardhat&logoColor=black)
-![NeoX](https://img.shields.io/badge/NeoX-00E599?style=for-the-badge&logo=neo&logoColor=black)
-![Polymarket](https://img.shields.io/badge/Polymarket-0052FF?style=for-the-badge&logoColor=white)
+![Uniswap](https://img.shields.io/badge/Uniswap-FF007A?style=for-the-badge&logo=uniswap&logoColor=white)
 
 </div>
 
 <!-- LANGUAGES -->
 <div align="center">
-<h3>💻 Languages</h3>
+<h3>💻 Languages & Stack</h3>
 
-![Languages](https://skillicons.dev/icons?i=ts,go,python,solidity,rust,js,astro,bash&theme=dark&perline=8)
-
-</div>
-
-<!-- FRAMEWORKS & TOOLS -->
-<div align="center">
-<h3>🔧 Stack & Tools</h3>
-
-![Stack](https://skillicons.dev/icons?i=react,nextjs,nodejs,flask,docker,cloudflare,vercel,github&theme=dark&perline=8)
+![Languages](https://skillicons.dev/icons?i=ts,python,go,solidity,rust,js,astro,bash&theme=dark&perline=8)
 
 <br>
 
-![Tools](https://skillicons.dev/icons?i=vscode,vim,git,cmake,figma,linux,apple,redis&theme=dark&perline=8)
+![Stack](https://skillicons.dev/icons?i=react,nextjs,nodejs,flask,docker,cloudflare,vercel,github&theme=dark&perline=8)
 
 </div>
 
-<!-- AI & AGENTS -->
+<!-- TOOLS -->
 <div align="center">
-<h3>🤖 AI & Agents</h3>
+<h3>🛠️ Tools</h3>
 
-![Claude](https://img.shields.io/badge/Claude-7000ff?style=for-the-badge&logo=anthropic&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Solodit](https://img.shields.io/badge/Solodit_Audit-ff00ff?style=for-the-badge&logo=openbugbounty&logoColor=white)
+![Tools](https://skillicons.dev/icons?i=vscode,vim,git,linux,apple,redis,figma,cmake&theme=dark&perline=8)
 
 </div>
 
