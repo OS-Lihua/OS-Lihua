@@ -75,25 +75,7 @@
 
 ---
 
-## ▸ SECTOR_06 // AI.ORACLE
-
-*Daily wisdom from multiple AI models. Refreshed every 24 hours.*
-
-<!-- AI:START -->
-```
-[Claude] Build is the best learning. Every shipped feature teaches more than
-         100 lines of documentation could ever convey.
-
-[Gemini] On-chain data is the most honest history. Trust the immutable ledger,
-         question everything else.
-
-[GPT]    Stay hungry. Stay paranoid. The next hacker is always three steps ahead.
-```
-<!-- AI:END -->
-
----
-
-## ▸ SECTOR_07 // CONNECT
+## ▸ SECTOR_06 // CONNECT
 
 <div align="center">
 

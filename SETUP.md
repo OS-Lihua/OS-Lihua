@@ -2,23 +2,7 @@
 
 ## 🚀 Implementation Checklist
 
-### 1. Repository Secrets Configuration
-
-Set these in GitHub Repository Settings → Secrets and variables → Actions:
-
-| Secret | Service | How to Get | Required |
-|--------|---------|-----------|----------|
-| `ANTHROPIC_API_KEY` | Claude (Anthropic) | [api.anthropic.com](https://console.anthropic.com/keys) | ✅ |
-| `GEMINI_API_KEY` | Gemini (Google) | [aistudio.google.com](https://aistudio.google.com/apikey) | ✅ (free tier) |
-| `OPENAI_API_KEY` | GPT (OpenAI) | [platform.openai.com](https://platform.openai.com/api-keys) | ⭐ Optional |
-
-**Steps to add secrets:**
-1. Go to your repo → Settings → Secrets and variables → Actions
-2. Click "New repository secret"
-3. Add each key from the table above
-4. Save
-
-### 2. File Structure Verification
+### 1. File Structure Verification
 
 ```
 OS-Lihua/
@@ -31,7 +15,6 @@ OS-Lihua/
 │   └── github-contribution-grid-snake-dark.svg   (auto-generated)
 └── .github/workflows/
     ├── update-stats.yml               ✅
-    ├── ai-daily.yml                   ✅
     └── snake.yml                      ✅
 ```
 
