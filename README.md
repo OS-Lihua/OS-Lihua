@@ -2,15 +2,6 @@
   <a href="./README.zh.md">🌐 中文版</a> | <strong>EN</strong>
 </div>
 
-<!-- HEADER -->
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:7000ff,50:ff00ff,100:00fff2&height=220&text=0xYaCo&fontColor=fff&fontSize=70&fontAlignY=35&desc=Web4%20%3D%20Web3%20%2B%20AI%20%7C%20Builder%20%C3%97%20Engineer&descSize=18&descAlignY=55&animation=twinkling">
-    <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a6e,50:4a4a8f,100:c9a227&height=220&text=0xYaCo&fontColor=fff&fontSize=70&fontAlignY=35&desc=Web4%20%3D%20Web3%20%2B%20AI%20%7C%20Builder%20%C3%97%20Engineer&descSize=18&descAlignY=55&animation=twinkling">
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7000ff,50:ff00ff,100:00fff2&height=220&text=0xYaCo&fontColor=fff&fontSize=70&fontAlignY=35&desc=Web4%20%3D%20Web3%20%2B%20AI%20%7C%20Builder%20%C3%97%20Engineer&descSize=18&descAlignY=55&animation=twinkling" width="100%">
-  </picture>
-</div>
-
 <!-- TYPING SVG -->
 <div align="center">
   <picture>
@@ -132,11 +123,3 @@
 
 </div>
 
-<!-- FOOTER -->
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:00fff2,50:ff00ff,100:7000ff&height=120&section=footer">
-    <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:c9a227,50:4a4a8f,100:1a1a6e&height=120&section=footer">
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00fff2,50:ff00ff,100:7000ff&height=120&section=footer" width="100%">
-  </picture>
-</div>

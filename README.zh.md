@@ -2,15 +2,6 @@
   <strong>中文</strong> | <a href="./README.md">🌐 English</a>
 </div>
 
-<!-- HEADER -->
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:7000ff,50:ff00ff,100:00fff2&height=220&text=0xYaCo&fontColor=fff&fontSize=70&fontAlignY=35&desc=Web4%20%3D%20Web3%20%2B%20AI%20%7C%20%E6%9E%84%E5%BB%BA%E8%80%85%20%C3%97%20%E5%B7%A5%E7%A8%8B%E5%B8%88&descSize=18&descAlignY=55&animation=twinkling">
-    <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a6e,50:4a4a8f,100:c9a227&height=220&text=0xYaCo&fontColor=fff&fontSize=70&fontAlignY=35&desc=Web4%20%3D%20Web3%20%2B%20AI%20%7C%20%E6%9E%84%E5%BB%BA%E8%80%85%20%C3%97%20%E5%B7%A5%E7%A8%8B%E5%B8%88&descSize=18&descAlignY=55&animation=twinkling">
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7000ff,50:ff00ff,100:00fff2&height=220&text=0xYaCo&fontColor=fff&fontSize=70&fontAlignY=35&desc=Web4%20%3D%20Web3%20%2B%20AI%20%7C%20%E6%9E%84%E5%BB%BA%E8%80%85%20%C3%97%20%E5%B7%A5%E7%A8%8B%E5%B8%88&descSize=18&descAlignY=55&animation=twinkling" width="100%">
-  </picture>
-</div>
-
 <!-- TYPING SVG -->
 <div align="center">
   <picture>
@@ -132,11 +123,3 @@
 
 </div>
 
-<!-- FOOTER -->
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:00fff2,50:ff00ff,100:7000ff&height=120&section=footer">
-    <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:c9a227,50:4a4a8f,100:1a1a6e&height=120&section=footer">
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00fff2,50:ff00ff,100:7000ff&height=120&section=footer" width="100%">
-  </picture>
-</div>
